@@ -1,11 +1,11 @@
-import Alert from 'react-bootstrap/Alert'
+import Alert from "react-bootstrap/Alert";
 
 const Message = ({ balance }) => {
-    return (
-      <div>
+  return (
+    <div>
       <Alert variant="info"> balance : {balance}</Alert>
-      </div>
-  )
-}
+    </div>
+  );
+};
 
-export default Message
+export default Message;
